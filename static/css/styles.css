@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'SquareSansProLight';
+  font-style: normal;
+  src: url("../fonts/PFSquareSansPro-Light.ttf");
+}
+@font-face {
+  font-family: 'SquareSansProRegular';
+  font-style: normal;
+  src: url("../fonts/PFSquareSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: 'SquareSansProMedium';
+  font-style: normal;
+  src: url("../fonts/PFSquareSansPro-Medium.ttf");
+}
+@font-face {
+  font-family: 'SquareSansProBold';
+  font-style: normal;
+  src: url("../fonts/PFSquareSansProBold.ttf");
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div {
+  padding: 0;
+  margin: 0;
+}
+html h1,
+body h1,
+h1 h1,
+h2 h1,
+h3 h1,
+h4 h1,
+h5 h1,
+h6 h1,
+p h1,
+span h1,
+div h1 {
+  font-family: SquareSansProMedium;
+  padding: 15px 0px 10px 0px;
+  text-align: center;
+  font-size: 58px;
+  color: #414141;
+}
+html h2,
+body h2,
+h1 h2,
+h2 h2,
+h3 h2,
+h4 h2,
+h5 h2,
+h6 h2,
+p h2,
+span h2,
+div h2 {
+  font-family: SquareSansProLight;
+  padding: 15px 0px 10px 0px;
+  text-align: center;
+  font-size: 28px;
+  color: #414141;
+}
+html p,
+body p,
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p,
+p p,
+span p,
+div p {
+  font-size: 16px;
+  font-family: SquareSansProRegular;
+  text-align: center;
+  color: #ccc;
+}
+html img,
+body img,
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+p img,
+span img,
+div img {
+  border: none;
+}
+html .global-wrapper,
+body .global-wrapper,
+h1 .global-wrapper,
+h2 .global-wrapper,
+h3 .global-wrapper,
+h4 .global-wrapper,
+h5 .global-wrapper,
+h6 .global-wrapper,
+p .global-wrapper,
+span .global-wrapper,
+div .global-wrapper {
+  margin: auto;
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 75px;
+}
+html .global-wrapper img,
+body .global-wrapper img,
+h1 .global-wrapper img,
+h2 .global-wrapper img,
+h3 .global-wrapper img,
+h4 .global-wrapper img,
+h5 .global-wrapper img,
+h6 .global-wrapper img,
+p .global-wrapper img,
+span .global-wrapper img,
+div .global-wrapper img {
+  width: 100%;
+  opacity: 1;
+}
