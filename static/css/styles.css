@@ -1,3 +1,84 @@
+@-webkit-keyframes showLogo {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-moz-keyframes showLogo {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes showLogo {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-o-keyframes showLogo {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes showLogo {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 @font-face {
   font-family: 'SquareSansProLight';
   font-style: normal;
@@ -117,17 +198,22 @@ div .global-wrapper {
   width: 300px;
   height: 75px;
 }
-html .global-wrapper img,
-body .global-wrapper img,
-h1 .global-wrapper img,
-h2 .global-wrapper img,
-h3 .global-wrapper img,
-h4 .global-wrapper img,
-h5 .global-wrapper img,
-h6 .global-wrapper img,
-p .global-wrapper img,
-span .global-wrapper img,
-div .global-wrapper img {
+html .global-wrapper .logo,
+body .global-wrapper .logo,
+h1 .global-wrapper .logo,
+h2 .global-wrapper .logo,
+h3 .global-wrapper .logo,
+h4 .global-wrapper .logo,
+h5 .global-wrapper .logo,
+h6 .global-wrapper .logo,
+p .global-wrapper .logo,
+span .global-wrapper .logo,
+div .global-wrapper .logo {
   width: 100%;
-  opacity: 1;
+  -webkit-animation-name: showLogo;
+  animation-name: showLogo;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
