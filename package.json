@@ -1,0 +1,25 @@
+{
+  "name": "up-sense.github.io",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/up-sense/up-sense.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/up-sense/up-sense.github.io/issues"
+  },
+  "homepage": "https://github.com/up-sense/up-sense.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-stylus": "^2.7.0"
+  }
+}
